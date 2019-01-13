@@ -17,6 +17,116 @@
                     <view key="view" contentMode="scaleToFill" id="ybH-3M-UmW">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cwK-OQ-Qkj">
+                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xCO-Ps-4o2">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" alpha="0.59999999999999998" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fill" translatesAutoresizingMaskIntoConstraints="NO" id="MO7-PW-OzJ">
+                                                <rect key="frame" x="0.0" y="98" width="414" height="902"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Steven Adams" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bmj-xG-14N">
+                                                <rect key="frame" x="26" y="703" width="363" height="65"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="30"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ePZ-jX-KvL">
+                                                <rect key="frame" x="25" y="482" width="216" height="180"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.40014985199999997" green="0.50375181440000005" blue="0.62850326300000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <string key="text">場上的位置為得分後衛及小前鋒，綽號PG或PG13。他在2010年NBA選秀中第1輪第10順位被印第安納溜馬選中。現效力於奧克拉荷馬城雷霆。  2016年夏季奧林匹克運動會代表美國參與籃球比賽奪得金牌。因其全能表現多次帶領印第安納溜馬殺入季後賽。喬治曾在2014年8月，參加美國隊表演賽時嚴重骨折。  比起以往強硬的打法，受傷回歸後的喬治轉變成較為保守、流暢的風格，其跳投出手數也大量增加。除受傷的賽季外，喬治每年皆入選明星賽名單、進入季後賽並入選聯盟最佳陣容。</string>
+                                                <color key="textColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Paul George" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vOQ-ZT-pMs">
+                                                <rect key="frame" x="26" y="409" width="363" height="65"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="30"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="wb2" translatesAutoresizingMaskIntoConstraints="NO" id="cwa-zD-q9X">
+                                                <rect key="frame" x="26" y="191" width="142" height="192"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" alpha="0.59999999999999998" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="okcicon" translatesAutoresizingMaskIntoConstraints="NO" id="Zi9-z6-Lpd">
+                                                <rect key="frame" x="282" y="21" width="136" height="77"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" alpha="0.59999999999999998" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fill" translatesAutoresizingMaskIntoConstraints="NO" id="i8j-xz-RbH">
+                                                <rect key="frame" x="0.0" y="0.0" width="286" height="98"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" alpha="0.60000002384185791" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fill" translatesAutoresizingMaskIntoConstraints="NO" id="Jww-gp-vPt">
+                                                <rect key="frame" x="286" y="0.0" width="128" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pg" translatesAutoresizingMaskIntoConstraints="NO" id="vJl-rS-1ur">
+                                                <rect key="frame" x="245" y="472" width="149" height="200"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="adams" translatesAutoresizingMaskIntoConstraints="NO" id="Hf6-iZ-7Lo">
+                                                <rect key="frame" x="25" y="766" width="149" height="200"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="u9v-eK-6av">
+                                                <rect key="frame" x="176" y="197" width="227" height="180"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.40014985203742981" green="0.50375181436538696" blue="0.62850326299667358" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <string key="text">場上位置為控球後衛，綽號為龜龜、西河。出生於加利福尼亞州長灘市，保有NBA史上唯一連續兩季場均大三元的紀錄。
+
+衛斯特布魯克在大學時期效力於UCLA棕熊隊，2008年NBA選秀中被西雅圖超音速以首輪第四順位選中。他是NBA史上第二位成功衛冕NBA明星賽最有價值球員的球員。
+
+2010年世錦賽和2012年奧運會他成功入選美國國家隊替補陣容，並兩奪金牌。
+
+2017年NBA首屆年度頒獎典禮上，衛斯特布魯克以單季場均大三元的成績力壓火箭詹姆士·哈登及馬刺科懷·倫納德奪得NBA最有價值球員獎項。</string>
+                                                <color key="textColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Russell Westbrook" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oEq-kv-iQJ">
+                                                <rect key="frame" x="26" y="124" width="353" height="65"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="30"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ftQ-pc-y9q">
+                                                <rect key="frame" x="175" y="776" width="227" height="180"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.40014985199999997" green="0.50375181440000005" blue="0.62850326300000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <string key="text">場上位置為中鋒，目前效力於NBA奧克拉荷馬城雷霆隊，因其高大壯碩的身材與酷似電影水行俠的男主角傑森·摩莫亞，而被稱為雷霆隊的水行俠。  亞當斯大學時期效力於匹茲堡大學，並於2013年6月27日被奧克拉荷馬城雷霆選中，成為匹茲堡大學最高選秀順位的球員。  屬於苦力型的中鋒，進攻技巧不多，但在拋投以及灌籃方面的把握度相當高，也有不錯的中距離投籃。在掩護卡位方面做得相當出色，防守觀念佳，近年來進攻技巧進步相當多，未來有成長為明星中鋒趨勢。</string>
+                                                <color key="textColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="OKC Big Three" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f6p-Nj-VNn">
+                                                <rect key="frame" x="25" y="9" width="343" height="115"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="41"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <viewLayoutGuide key="safeArea" id="y9r-nz-fi5"/>
+                                    </view>
+                                </subviews>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="contentSize">
+                                        <size key="value" width="0.0" height="1000"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </scrollView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="6P6-Ry-w1q"/>
                     </view>
@@ -24,7 +134,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="35L-3z-PMP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1919" y="-777"/>
+            <point key="canvasLocation" x="1918.840579710145" y="-885.26785714285711"/>
         </scene>
         <!--Player Table View Controller-->
         <scene sceneID="SeU-AA-eWH">
@@ -111,10 +221,6 @@
                                 <rect key="frame" x="243" y="88" width="170" height="204"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.033485256720000002" green="0.15768830489999999" blue="0.57147381760000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="omD-zH-PoR">
-                                <rect key="frame" x="31" y="115" width="186" height="152"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Num" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ES0-VL-con">
                                 <rect key="frame" x="342" y="231" width="39" height="21"/>
@@ -249,6 +355,10 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="omD-zH-PoR">
+                                <rect key="frame" x="34" y="115" width="208" height="144"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="msI-hn-XgM"/>
@@ -309,11 +419,11 @@
             </objects>
             <point key="canvasLocation" x="40.799999999999997" y="-50.824587706146929"/>
         </scene>
-        <!--Item-->
+        <!--Team-->
         <scene sceneID="xkP-Zr-j1A">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="55C-4Z-STA" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="7bW-sS-bgh"/>
+                    <tabBarItem key="tabBarItem" title="Team" id="7bW-sS-bgh"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="PWM-hJ-7Xh">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -326,12 +436,16 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ey2-Ij-xhm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="980" y="-777"/>
+            <point key="canvasLocation" x="1197" y="-1867"/>
         </scene>
     </scenes>
     <resources>
+        <image name="adams" width="342" height="451"/>
         <image name="fill" width="162" height="116"/>
+        <image name="okcicon" width="105" height="63"/>
         <image name="okcm" width="728" height="567"/>
         <image name="okcmark" width="1582" height="1007"/>
+        <image name="pg" width="663" height="854"/>
+        <image name="wb2" width="348" height="450"/>
     </resources>
 </document>
